@@ -150,5 +150,12 @@ public class Main {
         System.out.println("#13 задача");
         Company apple = new Company("Apple", 3000, 5500000);
         apple.printCompanyInfo();
+
+        /**
+         * Задача 14
+         */
+        System.out.println("#14 задача");
+        Circle circle = new Circle(5);
+        circle.printCircleInfo();
     }
 }
