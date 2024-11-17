@@ -127,5 +127,21 @@ public class Main {
         Rectangle rectangle1 = new Rectangle(25, 15);
         System.out.println("Площадь: " + rectangle1.calculateArea() + ", Периметер: " + rectangle1.calculatePerimeter());
 
+        /**
+         * Задача 12
+         */
+        System.out.println("#12 задача");
+
+        Customer customer = new Customer("Alex", "alex@gmail.com");
+        customer.addPurchase("TV");
+        customer.addPurchase("Radio");
+        customer.addPurchase("Phone");
+        System.out.println(customer);
+
+        Customer customer1 = new Customer("Jack", "jack@yandex.ru");
+        System.out.println(customer1);
+        customer1.addPurchase("Laptop");
+        customer1.addPurchase("Sandwich");
+        System.out.println(customer1);
     }
 }
