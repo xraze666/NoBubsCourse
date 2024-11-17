@@ -118,6 +118,14 @@ public class Main {
 
         System.out.println(player);
 
+        /**
+         * Задача 11
+         */
+        System.out.println("#11 задача");
+        Rectangle rectangle = new Rectangle(10, 10);
+        System.out.println("Площадь: " + rectangle.calculateArea() + ", Периметер: " + rectangle.calculatePerimeter());
+        Rectangle rectangle1 = new Rectangle(25, 15);
+        System.out.println("Площадь: " + rectangle1.calculateArea() + ", Периметер: " + rectangle1.calculatePerimeter());
 
     }
 }
