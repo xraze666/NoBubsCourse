@@ -71,5 +71,14 @@ public class Main {
         Currency rubles = new Currency("Rubles", 100);
         rubles.printCurrencyInfo();
         System.out.println(rubles.convertToUSD(1565));
+
+        /**
+         * Задача 7
+         */
+        System.out.println("#7 Задача");
+        Phone iphone = new Phone("Apple", "Iphone 16", 1499);
+        iphone.applyDiscount(15);
+        iphone.printPhoneDetails();
+
     }
 }
