@@ -80,5 +80,20 @@ public class Main {
         iphone.applyDiscount(15);
         iphone.printPhoneDetails();
 
+        /**
+         * Задача 8
+         */
+        System.out.println("#8 Задача");
+        Employee kate = new Employee("Kate", "Senior QA", 4500);
+        Employee martin = new Employee("Martin", "Junior DevOps", 2000);
+        Employee jack = new Employee("Jack", "Team Lead", 9850);
+
+        kate.increaseSalary(10);
+        martin.increaseSalary(99.75);
+        jack.increaseSalary(50);
+
+        System.out.println(kate);
+        System.out.println(martin);
+        System.out.println(jack);
     }
 }
