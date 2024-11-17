@@ -95,5 +95,15 @@ public class Main {
         System.out.println(kate);
         System.out.println(martin);
         System.out.println(jack);
+
+        /**
+         * Задача 9
+         */
+        System.out.println("#9 задача");
+        Triangle firstTr = new Triangle(1,2,3);
+        firstTr.printTriangleInfo();
+
+        Triangle secondTr = new Triangle(3,4,5);
+        secondTr.printTriangleInfo();
     }
 }
