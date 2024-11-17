@@ -143,5 +143,12 @@ public class Main {
         customer1.addPurchase("Laptop");
         customer1.addPurchase("Sandwich");
         System.out.println(customer1);
+
+        /**
+         * Задача 13
+         */
+        System.out.println("#13 задача");
+        Company apple = new Company("Apple", 3000, 5500000);
+        apple.printCompanyInfo();
     }
 }
