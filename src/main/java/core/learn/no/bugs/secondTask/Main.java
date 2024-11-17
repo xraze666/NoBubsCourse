@@ -64,5 +64,12 @@ public class Main {
             student.printStudentDetails();
         }
 
+        /**
+         * Задача 6
+         */
+        System.out.println("#6 Задача");
+        Currency rubles = new Currency("Rubles", 100);
+        rubles.printCurrencyInfo();
+        System.out.println(rubles.convertToUSD(1565));
     }
 }
