@@ -105,5 +105,19 @@ public class Main {
 
         Triangle secondTr = new Triangle(3,4,5);
         secondTr.printTriangleInfo();
+
+        /**
+         * Задача 10
+         */
+        System.out.println("#10 задача");
+        Player player = new Player("Player123", 1, 0);
+        player.levelUp();
+        player.addScore(100);
+        player.levelUp();
+        player.addScore(340);
+
+        System.out.println(player);
+
+
     }
 }
