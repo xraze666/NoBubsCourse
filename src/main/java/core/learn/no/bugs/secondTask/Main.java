@@ -35,12 +35,17 @@ public class Main {
          */
         System.out.println("#3 Задача");
 
-        Car car = new Car("BMW", "X5", 2007);
-        car.setPrice(52000.209);
-        car.printCarInfo();
+        Car bmw = new Car("BMW", "X5", 2007);
+        bmw.setPrice(52000.209);
+        bmw.printCarInfo();
 
         /**
          * Задача 4
          */
+        System.out.println("#4 Задача");
+
+        Product cola = new Product("Coca-Cola", "Drink", 999, 75);
+        cola.setQuantity(10);
+        cola.printProductInfo();
     }
 }
