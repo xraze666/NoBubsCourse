@@ -47,5 +47,22 @@ public class Main {
         Product cola = new Product("Coca-Cola", "Drink", 999, 75);
         cola.setQuantity(10);
         cola.printProductInfo();
+
+        /**
+         * Задача 5
+         */
+        System.out.println("#5 Задача");
+
+        Student[] students = {
+                new Student("Alex", 1, 4.5),
+                new Student("Bob", 2, 3.0),
+                new Student("Dima", 3, 4.9),
+                new Student("Bob", 5, 5.0)
+        };
+
+        for (Student student : students) {
+            student.printStudentDetails();
+        }
+
     }
 }
